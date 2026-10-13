@@ -1,0 +1,47 @@
+.mobile-controls {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  z-index: 50;
+  touch-action: none;
+}
+
+.dpad {
+  display: grid;
+  grid-template-rows: 56px 56px 56px;
+  gap: 8px;
+}
+
+.middle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.center {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(17,24,39,0.38);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(17,24,39,0.8);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.08);
+  font-size: 20px;
+  font-weight: 800;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:active {
+  transform: scale(0.96);
+  background: rgba(34,197,94,0.18);
+}

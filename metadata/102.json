@@ -1,0 +1,11 @@
+{
+  "name": "Crimson Burst Skin",
+  "description": "Skin legendaria para el rifle Crimson Burst.",
+  "image": "https://mi-juego.com/images/crimson_burst.png",
+  "attributes": [
+    { "trait_type": "Rarity", "value": "Legendary" },
+    { "trait_type": "Damage", "value": 28 },
+    { "trait_type": "Speed", "value": 15 },
+    { "trait_type": "Visual", "value": "Crimson" }
+  ]
+}

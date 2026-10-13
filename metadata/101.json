@@ -1,0 +1,11 @@
+{
+  "name": "Shadow Reaver Skin",
+  "description": "Skin épica para la pistola Shadow Reaver.",
+  "image": "https://mi-juego.com/images/shadow_reaver.png",
+  "attributes": [
+    { "trait_type": "Rarity", "value": "Epic" },
+    { "trait_type": "Damage", "value": 18 },
+    { "trait_type": "Speed", "value": 10 },
+    { "trait_type": "Visual", "value": "Shadow" }
+  ]
+}
